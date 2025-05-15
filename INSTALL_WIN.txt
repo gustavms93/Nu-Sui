@@ -1,0 +1,75 @@
+# Installation Guide for Ñu-sui - English
+
+Ñu-sui is an application that helps you understand and optimize the use of your bicycle gears. Follow these steps to install it on your Windows computer.
+
+## Step 1: Install Python
+
+1. **Download Python:**
+   - Visit [python.org](https://www.python.org/downloads/)
+   - Click on "Download Python" (the latest version, 3.10 or higher is recommended)
+
+2. **Run the installer:**
+   - **IMPORTANT!** Check the "Add Python to PATH" box before installing
+   - Click "Install Now" for a standard installation
+
+3. **Verify the installation:**
+   - Open Command Prompt (cmd) or PowerShell
+   - Type `python --version` and press Enter
+   - You should see the Python version number installed
+
+## Step 2: Install the required libraries
+
+1. **Open Command Prompt or PowerShell**:
+   - Press Windows key + R
+   - Type `cmd` and press Enter
+
+2. **Install the required libraries:**
+   - Run the following command:
+   ```
+   pip install matplotlib numpy
+   ```
+   - The tkinter library is usually included with Python on Windows
+
+## Step 3: Download and run Ñu-sui
+
+1. **Save the code:**
+   - Create a new text file
+   - Copy and paste all the Ñu-sui code
+   - Save it as `nu-sui.py` (make sure to change the extension from .txt to .py)
+
+2. **Run the application:**
+   
+   **Method 1: Double-click**
+   - If Python was installed correctly, you can simply double-click on `nu-sui.py`
+   
+   **Method 2: From the command line**
+   - Open Command Prompt or PowerShell
+   - Navigate to the folder where you saved `nu-sui.py` using the `cd` command
+     - Example: `cd C:\Users\YourUser\Downloads`
+   - Run: `python nu-sui.py`
+
+## Common troubleshooting
+
+- **"Python is not recognized as an internal command..."**:
+  - Python is not in the PATH. Reinstall Python and make sure to check "Add Python to PATH"
+
+- **"Module not found..."**:
+  - Some library is not installed. Run:
+  ```
+  pip install matplotlib numpy
+  ```
+
+- **The application window closes immediately:**
+  - Run the application from cmd to see the error messages
+  
+- **File paths not found:**
+  - Make sure you're running the program from the correct directory
+
+## Additional help
+
+If you have problems with the installation, you can:
+1. Search for the specific error on Google
+2. Visit Python forums or Stack Overflow
+3. Check Python documentation about installation on Windows
+
+Enjoy using Ñu-sui to better understand your bicycle gears!
