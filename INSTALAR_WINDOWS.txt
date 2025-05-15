@@ -30,7 +30,7 @@
    ```
    - La biblioteca tkinter generalmente viene incluida con Python en Windows
 
-## Paso 3: Descargar y ejecutar Olinia
+## Paso 3: Descargar y ejecutar Ñu-Sui
 
 1. **Guardar el código:**
    - Crea un nuevo archivo de texto
