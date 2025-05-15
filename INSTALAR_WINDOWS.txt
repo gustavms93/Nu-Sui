@@ -1,0 +1,75 @@
+# Guía de Instalación de Ñu-sui para Windows
+
+Ñu-sui es una aplicación que te ayuda a entender y optimizar el uso de las marchas de tu bicicleta. Sigue estos pasos para instalarla en tu computadora con Windows.
+
+## Paso 1: Instalar Python
+
+1. **Descargar Python:**
+   - Visita [python.org](https://www.python.org/downloads/)
+   - Haz clic en "Download Python" (la última versión, 3.10 o superior es recomendable)
+
+2. **Ejecutar el instalador:**
+   - **¡IMPORTANTE!** Marca la casilla "Add Python to PATH" antes de instalar
+   - Haz clic en "Install Now" para una instalación estándar
+
+3. **Verificar la instalación:**
+   - Abre el Símbolo del sistema (cmd) o PowerShell
+   - Escribe `python --version` y presiona Enter
+   - Deberías ver el número de versión de Python instalada
+
+## Paso 2: Instalar las bibliotecas necesarias
+
+1. **Abrir el Símbolo del sistema o PowerShell**:
+   - Presiona la tecla Windows + R
+   - Escribe `cmd` y presiona Enter
+
+2. **Instalar las bibliotecas requeridas:**
+   - Ejecuta el siguiente comando:
+   ```
+   pip install matplotlib numpy
+   ```
+   - La biblioteca tkinter generalmente viene incluida con Python en Windows
+
+## Paso 3: Descargar y ejecutar Olinia
+
+1. **Guardar el código:**
+   - Crea un nuevo archivo de texto
+   - Copia y pega todo el código de Ñu-sui
+   - Guárdalo como `nu-sui.py` (asegúrate de cambiar la extensión de .txt a .py)
+
+2. **Ejecutar la aplicación:**
+   
+   **Método 1: Doble clic**
+   - Si la instalación de Python se realizó correctamente, puedes simplemente hacer doble clic en `nu-sui.py`
+   
+   **Método 2: Desde la línea de comandos**
+   - Abre el Símbolo del sistema o PowerShell
+   - Navega a la carpeta donde guardaste `nu-sui.py` usando el comando `cd`
+     - Ejemplo: `cd C:\Users\TuUsuario\Downloads`
+   - Ejecuta: `python nu-sui.py`
+
+## Solución de problemas comunes
+
+- **"Python no se reconoce como un comando interno..."**:
+  - Python no está en el PATH. Reinstala Python y asegúrate de marcar "Add Python to PATH"
+
+- **"No se encuentra el módulo..."**:
+  - Alguna biblioteca no está instalada. Ejecuta:
+  ```
+  pip install matplotlib numpy
+  ```
+
+- **La ventana de la aplicación se cierra inmediatamente:**
+  - Ejecuta la aplicación desde cmd para ver los mensajes de error
+  
+- **Rutas de archivos no encontradas:**
+  - Asegúrate de que estás ejecutando el programa desde el directorio correcto
+
+## Ayuda adicional
+
+Si tienes problemas con la instalación, puedes:
+1. Buscar el error específico en Google
+2. Visitar los foros de Python o Stack Overflow
+3. Revisar la documentación de Python sobre la instalación en Windows
+
+¡Disfruta usando Ñu-sui para comprender mejor las marchas de tu bicicleta!
